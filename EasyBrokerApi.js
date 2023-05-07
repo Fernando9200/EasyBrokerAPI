@@ -1,6 +1,6 @@
-import fetch from "node-fetch";
+import fetch from 'node-fetch';
 
-const apiKey = 'l7u502p8v46ba3ppgvj5y2aad50lb9'
+const apiKey = 'l7u502p8v46ba3ppgvj5y2aad50lb9';
 
 class EasyBrokerApi {
   constructor(apiKey) {
@@ -20,9 +20,12 @@ class EasyBrokerApi {
   }
 }
 
+
 const api = new EasyBrokerApi(apiKey);
 api.getAllProperties()
   .then(properties => {
     properties.forEach(property => console.log(property.title));
   })
   .catch(err => console.error(err));
+
+  export default EasyBrokerApi;
