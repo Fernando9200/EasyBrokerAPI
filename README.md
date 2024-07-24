@@ -7,8 +7,8 @@ This is a JavaScript class that provides a simple interface to consume the EasyB
 To get started with the project, clone the GitHub repository to a directory of your choice:
 
 ```shell
-cd "directory of your choice"
 git clone https://github.com/Fernando9200/EasyBrokerAPI.git
+cd EasyBrokerAPI
 ```
 
 Next, navigate to the cloned directory and run the following command to install the project's dependencies:
